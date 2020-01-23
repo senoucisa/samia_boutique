@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <link rel="stylesheet" href="css/boutique.css">
     <title>Exercice</title>
 </head>
@@ -11,17 +12,22 @@
     <!-- le contenu principal -->
     <div id="conteneur">
         <!-- en tête de la page -->
-        <header class="header">
-            <h1>Ma boutique</h1>
-            <div class="clear"></div>
-
-            <div class="#">Vente en ligne
-
+        <header>
+            <div>
+            <h1><img src="img/logo.png" alt="logo">
+               Ma Boutique</h1>
+            <p>Vente en ligne, Mode, Tendance et déco</p>
             </div>
-            <div class="#">Besoin d'aide <input type="besoin d'aide">
+            <div class="aide">
+                <h3>Besoin d'aide ?</h3>
+                <img src="img/aide.png" alt="aide">
+                <p>Du lundi au Vendredi de 10h à 17h30</p>
             </div>
-            <div class="#">Mon panier
-                </div>
+            <div class="panier">
+                <h5>Mon Compte</h5>
+                <hr>
+                <img src="img/article.png" alt="article">article(s) dans votre panier
+            </div>
         </header>
         <!-- la navigation -->
 
@@ -36,58 +42,60 @@
         </nav>
         <main>
             <!-- 1er section -->
-            <section id="section1">
-                <img src="img/bandeau.png" alt="parfum" width="1000" height="400">
-            </section>
-            <section class="zone1">
+        <section id="section1">
+                <img src="img/bandeau.png" alt="parfum" width="1000" height="333">
+        </section>
+        <section class="zone1">
 
-                <div class="paie">Paiememnt
-                    <img src="img/paiement.png" alt="moyen de paiement">
+                <div class="paie">Paiement Securisé
                     <p>Réglez vos achats en toute sérénité sur ma boutique .com</p>
+                    <img src="img/paiement.png" alt="moyen de paiement">
                 </div>
                 <div class="qui">Qui sommes nous
                     
-                    <p>Lorem ipsum dolor sit amet conse. Consequuntur ex ipsum itaque veritatis assumenda quo quod !</p>
+                    <p>Lorem ipsum dolor sit amet conse.</p>
                 </div>
                     
              <div class="service">Services 
                 <img src="img/camion.png" alt="livraison">
-                <img src="img/echange.png" alt="echange">
-                
+                <img src="img/echange.png" alt="echange"> 
             </div>
-            </section>
+        </section>
+        
           
             <!-- 2eme section -->
 
-            <section id="section2">
-                <div class="#">Bon plan
-                    <img src="img/robe.png" alt="">
+        <section class="zone2">
+                <div class="plan">
+
+                    <img src="img/robe.png" alt=""><p>Bon plan</p>
+                    
+                    
                 </div>
-                <div class="#">Coup de coeur
-                    <img src="img/talons.png" alt="">
+                <div class="coeur">
+                    <img src="img/talons.png" alt="">Coup de coeur
                 </div>
-                <div class="#">Objectif plaisir
-                    <img src="img/chemise.png" alt="">
+                <div class="plaisir">
+                    <img src="img/chemise.png" alt="">Objectif plaisir
                 </div>
+                <div class="clear"></div>
                 
-            </section>
+        </section>
             <!-- pied de page -->
 
-            <footer>
-                <a href="#">Newletter</a>
-                <a href="#">Promotions</a>
-                <a href="#">Nouveau produits</a>
-                <a href="#">Meilleurs ventes</a>
-                <a href="#">Mentions légales</a>
-                <a href="#">Conditions generales de vente</a>
-                <a href="#">Contactez-nous</a>
-
-
-
-            </footer>
-
         </main>
-
+    
+        <footer>
+            <ul>
+                <li>Newsletter - </li>
+                <li>Promotions -</li>
+                <li>Nouveau produits -</li>
+                <li>Meilleurs ventes -</li>
+                <li>mentions légales -</li>
+                <li>Condition générales de vente -</li>
+                <li>Contactez-nous</li>
+            </ul>
+        </footer>
     </div>
 </body>
 </html>
