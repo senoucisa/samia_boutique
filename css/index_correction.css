@@ -1,0 +1,160 @@
+body {
+    background:url(../img/fond.png);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+#conteneur {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 12px lightgray;
+}
+.rose {
+    /* background: pink; */
+}
+.kaki {
+    background: darkkhaki;
+}
+.bleu {
+    background: dodgerblue;
+}
+/* header */
+header {
+    height: 100px;
+    background:url(../img/logo.png) no-repeat left top;
+    margin-left: 10px;
+
+}
+header h1 {
+    font-size: 2.6em;
+    font-style: oblique;
+    padding-left: 20px;
+}
+header .boutique p {
+    color: #ff99cc;
+    font-size: 0.9eme;
+    font-weight: 100;
+    font-style: italic;
+    padding-left: 35px;
+}
+header .boutique {
+    width: 350px;
+    height: 100px;
+    float: left;
+    line-height: 5px;
+    margin-left: 30px;
+}
+header .aide h2 {
+    color: #33ccff;
+    font-weight: lighter;
+}
+
+header .aide figure {
+    position: relative;
+}
+header .aide figcaption {
+    position: absolute;
+    top: 12px;
+    left: 45px;
+    color:#33ccff;
+    font-weight: bold;
+}
+header .aide {
+    width: 300px;
+    height: 100px;
+    float: left;
+    line-height: 1px;
+}
+
+header .compte {
+    width: 270px;
+    height: 95%;
+    float: right;
+    background: #33ccff;
+    color: #fff;
+    line-height: 2px;
+}
+header .compte hr {
+    color: #fff;
+}
+header .compte figure {
+    margin: 0 auto;
+    position: relative;
+}
+header .compte figcaption {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+/* navigation */
+nav {
+    height: 60px;
+    background: #33ccff;
+    line-height: 60px;
+}
+nav li {
+    display: inline;
+    text-decoration: none;
+    /* color: #fff; */
+    /* padding-left: 20px; */
+    padding: 40px;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+.active {
+    background: pink;
+    padding: 22px;
+}
+/* main */
+
+#bandeau {
+    height: 333px;
+}
+/* footer */
+footer {
+    height: 50px;
+}
+
+.last {
+    float: left;
+    width: 320px;
+    height: 180px;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+​
+.last h4 {
+    margin-top: 0;
+    border-radius: 1em 1em 0 0;
+    background-color: darkgrey;
+    height: 30px;
+    text-align: center;
+}
+​
+.last img, .last p {
+    display: inline-block;
+    
+}
+​
+.last p {
+    font-size: 0.6em;
+    font-weight: lighter;
+    width: 180px;
+}
+​
+.last a {
+    display: block;
+    color: #33ccff;
+    text-decoration: none;
+    position: absolute;
+}
+
+.clear {
+    clear: both;
+}

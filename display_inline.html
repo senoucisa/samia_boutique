@@ -4,40 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Display:inline;et display:inline-block;</title>
+    <title>display: inline;  et display: inline-block;</title>
     <style>
-        body {
-            background-color: bisque;
-        }
-        
-        .orange {
-            background: orange;
-        }
-        main {
-            background: #fff;
-            width: 600px;
-            margin: 0 auto;
-        }
-        main p {
-            /* display: inline; */
-            display: inline-block;
-            width: 190px;
-            padding: 5px;
-        }
-    
+    body {
+        background: bisque;
+    }
+    .orange {
+        background: orange;
+    }
+    main {
+        width: 600px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    #zone1 p {
+        /* display: inline; */
+        display: inline-block;
+        width: 200px;
+    }
+    #images img {
+        /* display: inline; */
+        display: inline-block;
+        width: 100px;
+    }
+    #zone2 p {
+        display: inline-block;
+        width: 200px;
+    }
+    #zone2 p>a {
+        display: block;
+        /* width: 100px;
+        background-color: aqua;
+        height: 100px; */
+    }
+    #zone3 address {
+        display: inline-block;
+        width: 200px;
+        height: 100px;
+        /* border: 1px solid olive; */
+        box-sizing: border-box;
+        /* line-height: 200px; */
+        padding: 20px;
+    }
+    #zone3 address:nth-child(even) {
+        color: white;
+        background: orange;
+    }
     </style>
 </head>
 <body>
-    <main>
-        <!-- Les commentaires vides entre les p sont là pour gerer l'espace blans généré par la propriété display:inline-block;NE PAS LES ENLEVER !!!!!!!!!!!!!!SURTOUT PAS-->
-        <h1><code>display:inline</code> et display:inline-block;</h1>
-        <p>1-Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur doloremque nemo odio, ipsa neque, modi fugiat blanditiis atque non consequatur hic perspiciatis similique dignissimos obcaecati quae harum</p><p
-         class="orange">2-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique ut, rerum unde exercitationem quas corporis perspiciatis tempore minus, ea ducimus provident necessitatibus nihil repellendus optio esse aspernatur ab natus!</p><p>
-        3-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste repudiandae eius accusamus atque facere, quis alias recusandae tenetur ipsam nostrum fuga, sapiente dolores, magni iure! Quas repellat aliquam iste debitis.</p>
-
-        <a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html" target="_blank">display inline-block et l'espace blanc</a>
-       
-    </main>
-    
+    <main>  
+        <div id="p1">
+            <!-- les commentaires vides entre les p sont là pour gérer l'espace blanc généré par la propriété display: inline-block; NE PAS LES ENLEVER !!!!! -->
+            <h1><code>display: inline;</code> et <code>display: inline-block;</code></h1>
+            <p>1- Lorem gni impedit architecto, optio quod delectus cumque tenetur tempora repudiandae numquam autem!</p><!--  --><p class="orange">2- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, obcaecati? Minus quidem labore neque culpa corporis consectetur non magni impedit architecto, optio quod delectus cumque tenetur tempora repudiandae numquam autem!</p><!--  --><p>3- Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, obcaecati? Minus quidem labore neque culpa corporis consectetur non magni impedit architecto, optio quod delectus cumque tenetur tempora repudiandae numquam autem!</p>
+            <a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html" target="_blank">display in line block et l'espace blanc</a>
+        </div>
+        <hr>
+        <div id="images">
+            <!-- NE PAS ENLEVER COMMENTAIRES VIDES ! -->
+            <img src="img/survol_img1.jpg" alt=""><!-- --><img src="img/survol_img2.jpg" alt=""><!-- --><img src="img/survol_img3.jpg" alt="" ><img src="img/survol_img1.jpg" alt=""><!-- --><img src="img/survol_img2.jpg" alt=""><!-- --><img src="img/survol_img3.jpg" alt="" >
+        </div>
+        <hr>
+        <div id="p2">
+            <p class="orange">A Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quidem delectus in dolorum sed dignissimos atque officia sequi accusantium neque odio, error molestias quibusdam aspernatur culpa architecto excepturi? Cupiditate, illo?</p><p class="">B Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quidem delectus in dolorum sed dignissimos atque officia</p><p class="">C Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quidem delectus in dolorum sed dignissimos atque officia <a href="https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html" target="_blank">display</a></p>
+        </div>
+        <div id="zone3">
+            <address>
+                    Jacques Duroc<br>
+                    12 avenue du Soleil
+                    75012 Paris
+                </address><address>
+                Jacques Chirac<br>
+                12 avenue du Soleil
+                75012 Paris
+                </address><address>
+                Jacques Dutronc<br>
+                12 avenue du Soleil
+                75012 Paris
+                </address><address>
+                Jacques Duroc<br>
+                12 avenue du Soleil
+                75012 Paris
+                </address><address>
+                Jacques Chirac<br>
+                12 avenue du Soleil
+                75012 Paris
+                </address><address>
+                Jacques Dutronc<br>
+                12 avenue du Soleil
+                75012 Paris
+            </address>
+        </div>
+        <br><br><br><br><br><br><br><br>
+    </main> 
 </body>
 </html>
