@@ -1,6 +1,14 @@
 body {
+<<<<<<< HEAD
+    width: 1200px;
+    height: 1200px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+=======
     background:url(../img/fond.png);
     font-family: Arial, Helvetica, sans-serif
+>>>>>>> e6af6569aab31b2314c6311463bf36ba8b1d236b
 }
 #conteneur {
     width: 1000px;
@@ -8,10 +16,18 @@ body {
     margin: 0 auto;
     
 }
+<<<<<<< HEAD
+.header {
+    width: 100px;   
+}
+.besoin {
+    float: left;
+=======
 header {
     background: white;
     width: 1000px;
     height: 130px;  
+>>>>>>> e6af6569aab31b2314c6311463bf36ba8b1d236b
 }
 header div {
     float: left;
@@ -47,9 +63,9 @@ nav a {
     
 }
 nav a:hover {
-    background: #2C3E50;
+    /* background: #2C3E50;
     color: #fff;
-    border: none;
+    border: none; */
 }
 .active{
     background: #FF99CC;
@@ -75,6 +91,53 @@ nav a:hover {
 .zone1  {
     float: left;
 }
+<<<<<<< HEAD
+footer a {
+    margin: 10px;
+    padding:2px 10px;
+    border: 2px solid #fff;
+    background: #6ACAFC;
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.5s;   
+}
+footer {
+    background: #33CCFF;
+    height: 15px;
+    padding: 10px;
+    border-bottom: 10px solid #33CCFF;
+    text-align: center;
+}
+.plan {
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+}
+.telephone {
+    text-align: center;
+}
+#compte {
+    background-color: #33ccff;
+    margin-top: 0 auto;   
+}
+.coeur {
+  margin: auto;
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+}
+.coeur img {
+    float: left;
+}
+.plaisir {
+    
+    width: 250px;
+    height: 150px;
+    border: 1px solid black;
+ 
+}
+=======
 .clear {
     clear: both;
 }
@@ -134,3 +197,4 @@ footer ul {
     text-align: center;
     
 }
+>>>>>>> e6af6569aab31b2314c6311463bf36ba8b1d236b
